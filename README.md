@@ -14,11 +14,12 @@ This project implements a Mean-CVaR Portfolio Optimization model incorporating s
 ```bash
 ├── data_collection.py      # Fetches stock and options data from yfinance
 ├── data_clean.py           # Cleans and restructures the dataset
-├── gradproject.m           # MATLAB script for Mean-CVaR portfolio optimization (stocks & calls)
+├── gradproject.m          # MATLAB script for Mean-CVaR portfolio optimization (stocks & calls)
 ├── gradproject_all_options.m # Includes long/short calls and puts
 ├── real_SP500_all_options.m  # Uses real S&P 500 stock and options data
 ├── real_SP500_call.m        # Simplified model with only calls
 ├── real_SP500_synthetic.m   # Uses synthetic options dataset
+├── simulated_data.py        # Generates synthetic options dataset
 ├── README.md               # Documentation
 ```
 ## Future Work
